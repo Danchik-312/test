@@ -2,8 +2,9 @@ function returnSmall(x, y) {
  return x < y ? x : y;
 }
 
-let number = returnSmall(5, 10);
-
-function showBrowser() {
-    document.write(number);
+function showBrowser(message) {
+    document.write(message);
 }
+
+let number = returnSmall(5, 10);
+showBrowser(number);
